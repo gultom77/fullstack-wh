@@ -4,6 +4,8 @@ php artisan make:model Category -mc
 php artisan make:model Product -mc
 php artisan make:model Warehouse -mc
 php artisan make:model Merchant -mc
+  * php artisan make:model Dept -mc
+  * php artisan make:model WorkUnit -mc
 
 php artisan make:model MerchantProduct -mc
 php artisan make:model WarehouseProduct -mc
