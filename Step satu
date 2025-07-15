@@ -1,0 +1,31 @@
+Dengan melihat file ERD yang sudah di design oleh project Manager, selanjutnya kita akan melakukan design database sebagai berikut :
+
+php artisan make:model Category -mc
+php artisan make:model Product -mc
+php artisan make:model Warehouse -mc
+php artisan make:model Merchant -mc
+
+php artisan make:model MerchantProduct -mc
+php artisan make:model WarehouseProduct -mc
+php artisan make:model Transaction -mc
+
+php artisan make:model TransactionProduct -m
+
+php artisan make:controller UserController
+php artisan make:controller RoleController
+php artisan make:controller AuthController
+
+php artisan make:resource UserResource
+php artisan make:resource CategoryResource
+php artisan make:resource MerchantResource
+php artisan make:resource ProductResource
+php artisan make:resource WarehouseResource
+php artisan make:resource TransactionResource
+php artisan make:resource RoleResource
+
+
+
+
+
+
+
